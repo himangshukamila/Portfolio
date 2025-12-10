@@ -153,8 +153,8 @@ const Contact = () => {
                   <motion.div
                     initial={{ opacity: 0, x: -20 }}
                     animate={isInView ? { opacity: 1, x: 0 } : {}}
-                    transition={{ delay: 0.2 * index, duration: 0.5 }}
-                    className="glass p-6 rounded-xl flex items-start space-x-4 hover:border-neon-blue/50 transition-all group"
+                    transition={{duration: 0.1 }}
+                    className="glass p-6 mt-6  rounded-xl flex items-start space-x-4 hover:border-neon-blue/50 transition-all group"
                     whileHover={{ x: 10 }}
                   >
                     <div className="w-12 h-12 bg-gradient-to-br from-neon-blue to-neon-purple rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">

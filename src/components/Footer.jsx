@@ -22,11 +22,11 @@ const Footer = () => {
     },
     {
       icon: Linkedin,
-      href: "www.linkedin.com/in/aaditya-kamila",
+      href: "https://linkedin.com/in/aaditya-kamila",
       label: "LinkedIn",
       color: "hover:text-blue-400",
     },
-    
+
     {
       icon: Mail,
       href: "mailto:himangshukamila8@gmail.com",
@@ -130,7 +130,7 @@ const Footer = () => {
                   href="mailto:himangshu.kamila@example.com"
                   className="hover:text-neon-blue transition-colors break-all"
                 >
-                  himangshu.kamila@example.com
+                  himangshukamila8gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-2">
